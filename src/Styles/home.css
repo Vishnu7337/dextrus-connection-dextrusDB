@@ -1,0 +1,13 @@
+.main-catalog{
+
+    width: 50vw;
+    height: 100vh;
+    display:flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    /* border: 2px solid black; */
+}
+button{
+    height: 10%;
+    width:50%
+}

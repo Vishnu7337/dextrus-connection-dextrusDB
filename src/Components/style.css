@@ -1,0 +1,55 @@
+.navbar {
+    display: flex;
+    background-color: #0d6efd;
+    color: #fff;
+    width: 100vw;
+    height: 8vh;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.left {
+    display: flex;
+    align-items: center;
+    width: 30%;
+    margin-left: 50px;
+}
+
+.left-nav {
+    padding-top: 20px;
+    height: 92vh;
+    overflow-y: scroll;
+    background-color: #f2f2f2;
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.catalogs-list,
+.schemas-list,
+.tables-views-buttons,
+.tables-list {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 3px;
+    width: 100%;
+    padding-left: 15px;
+}
+.columns-list{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 5px;
+    width: 100%;
+    padding-left: 15px;
+}
+
+.catalog-button,
+.schema-button,
+.tables-button,
+.tables-views-buttons button{
+    border: none;
+    width: max-content;
+}
